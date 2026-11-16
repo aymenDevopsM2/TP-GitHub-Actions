@@ -25,3 +25,6 @@ jobs:
 
       - name: Nom du projet
         run: echo "Projet TP DevOps"
+
+      - name: Vérification automatique
+        run: echo "GitHub Actions s'exécute automatiquement après un commit."
