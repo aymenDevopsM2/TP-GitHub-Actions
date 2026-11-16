@@ -14,8 +14,11 @@ jobs:
       - name: Afficher un message
         run: echo "Bienvenue dans le cours DevOps"
 
-      - name: Afficher la date
-        run: date
+      - name: Afficher mon nom et la date
+        run: |
+          echo "Nom : BENCHIKHA"
+          echo "Date d'exécution :"
+          date
 
       - name: Afficher le système
         run: uname -a
